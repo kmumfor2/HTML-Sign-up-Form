@@ -6,29 +6,41 @@
     <title>Vacation Time!</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
-    <nav>
-        Enter the Contest for the Vacation of a Lifetime
-    </nav>
-    <main>
-        <h2>Vacation Contest Sign-Up Form</h2>
-        <form> <!-- TODO: Set Action and Method Properties -->
-            <div>
-                <label for="firstname">Your First Name</label>
-                <input type="text" id="firstname" name="firstname">
-                <!-- TODO: Create a "lastname" input with type "text" -->
-            </div>
-            <!-- TODO: Make fieldset and legend -->
-            <!-- Todo: Email Input -->
-            <!-- Todo: Street Address Input -->
-            <!-- Todo: City, State, and Zip Inputs -->
 
-            <!-- TODO: Second fieldset -->
-            <!-- TODO: Radio buttons for selecting preferred destination -->
-            <!-- TODO: Color input for selecting favorite color -->
-            <!-- TODO: Checkboxes for selecting extra add-ons -->
-            
-            <!-- TODO: Submit Button -->
+        <body>
+            <nav>
+                Enter the Contest for the Vacation of a Lifetime
+            </nav>
+            <main>
+                <h2>Vacation Contest Sign-Up Form</h2>
+                <form> <!-- TODO: Set Action and Method Properties -->
+                    <div>
+                        <label for="firstname">Your First Name</label>
+                        <input type="text" id="firstname" name="firstname" minlength="2" maxlength="35">
+                        <span class="firstname">*</span>
+                        <!-- TODO: Create a "lastname" input with type "text" -->
+                        <label for="last name">Your Last Name</label>
+                        <input type="text" id="last name" name="lastname" minlength="2" maxlength="35">
+                        <span class="lastname">*</span>
+                        <label for="yourage">Your Age</label>
+                        <input type="number" name="age" id="age" min="21" max="120">
+        
+                    <h5>Must be age 21 or older to enter the contest</h5>
+                    <!-- TODO: Make fieldset and legend -->
+                    <!-- Todo: Email Input --> <label for="email">Your Email</label>
+                    <input type="text" id="email" name="email">
+                    <span class="email">*</span>
+                    <!-- Todo: Street Address Input -->
+                    <!-- Todo: City, State, and Zip Inputs -->
+         <label for="ZIPcode">Your ZIP code</label>
+                        <input type="number" name="ZIPcode" id="ZIPcode">
+                    <!-- TODO: Second fieldset -->
+                    <!-- TODO: Radio buttons for selecting preferred destination -->
+                    <!-- TODO: Color input for selecting favorite color -->
+                    <!-- TODO: Checkboxes for selecting extra add-ons -->
+                    
+                    <!-- TODO: Submit Button -->
+                    
         </form>
     </main>
     <footer>
